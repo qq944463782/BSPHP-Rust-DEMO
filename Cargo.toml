@@ -1,0 +1,6 @@
+# 工作区：共用核心库 + 账号演示 + 卡演示。
+# 根目录执行：cargo build -p bsphp_rust_user && cargo build -p bsphp_rust_car
+
+[workspace]
+members = ["bsphp.Rust.user", "bsphp.Rust.car"]
+resolver = "2"

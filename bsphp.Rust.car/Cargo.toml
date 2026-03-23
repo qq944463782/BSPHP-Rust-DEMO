@@ -1,0 +1,23 @@
+[package]
+name = "bsphp_rust_car"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+aes = "0.8"
+base64 = "0.22"
+cbc = { version = "0.1", features = ["alloc"] }
+dirs = "5"
+md-5 = "0.10"
+uuid = { version = "1", features = ["v4"] }
+rand = "0.8"
+rsa = "0.9"
+serde = { version = "1", features = ["derive"] }
+thiserror = "1"
+eframe = "0.29"
+egui = "0.29"
+chrono = "0.4"
+reqwest = { version = "0.12", default-features = false, features = ["blocking", "rustls-tls"] }
+open = "5"
+urlencoding = "2"
+serde_json = "1"
